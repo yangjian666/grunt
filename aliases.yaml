@@ -1,0 +1,11 @@
+dev:
+  - clean:dev
+
+server:
+  - connect:dev
+
+release:
+  # - clean:dist
+
+default:
+  - server

@@ -1,0 +1,12 @@
+options:
+  debug: true
+  open: http://<%= host %>:<%= port %>/
+  port: <%= port %>
+  hostname: <%= host %>
+  livereload: <%= livereload %>
+
+dev:
+  options:
+    keepalive: true
+    base:
+      - <%= base %>
